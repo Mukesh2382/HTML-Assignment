@@ -193,10 +193,6 @@ h4{
     align-items: center;
 }
 @media(max-width: 900px){
-    .header{
-        display: flex;
-        flex-direction: row;
-    }
     .header-right{
         display: flex;
         flex-direction: row;
@@ -218,8 +214,16 @@ h4{
     h1{
         width: 80vw;
     }
-
+    .content-right{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }.third-section{
+        height : 500px;
+    }
     img{
+        justify-content: center;
         height: 36vh;
         width: 72vw;
         margin-top: 6vw;
